@@ -1,0 +1,116 @@
+/* Custom login page to WordPress websites */
+
+body.login input {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+body.login {
+  background: rgba(55, 33, 71, 1) !important;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(55, 33, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(55, 33, 71, 1)),
+    color-stop(100%, rgba(0, 0, 0, 1))
+  ) !important;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(55, 33, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(55, 33, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(55, 33, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(55, 33, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#372147', endColorstr='#000000', GradientType=1 ) !important;
+}
+
+.login h1 a {
+
+}
+
+.login form {
+  background: transparent !important;
+  border: 0px !important;
+  padding: 26px 24px 15px !important;
+}
+
+.wp-hide-pw span.dashicons {
+  color: #5d5d5d !important;
+}
+
+.wp-hide-pw span.dashicons.hover,
+.wp-hide-pw span.dashicons:hover {
+  color: #adadad !important;
+}
+
+.wp-hide-pw span.dashicons.active,
+.wp-hide-pw span.dashicons:active {
+  border: 0 !important;
+}
+
+.login label {
+  color: #b7b7b7 !important;
+}
+
+input#user_pass,
+input#user_login {
+  background: transparent !important;
+  border-bottom: #5c52ff 1px solid !important;
+  border: 0px;
+  border-radius: 0px !important;
+}
+
+input#user_pass:focus,
+input#user_login:focus {
+  border: 0px;
+  border-radius: 0px !important;
+}
+
+form#loginform p.submit input#wp-submit,
+form#lostpasswordform p.submit input#wp-submit {
+  background: #5c52ff !important;
+  border: 0px !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+  padding: 5px !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
+form#lostpasswordform p.submit input#wp-submit {
+}
+
+.login #nav a,
+.login #backtoblog a {
+  color: #fff !important;
+}
