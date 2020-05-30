@@ -1,7 +1,3 @@
-<p align="center">
-<img alt="FastFeet" src="github/logo.png" />
-</p>
-
 <h1 align="center">Custom Login Wordpress</h1>
 
 <blockquote align="center">
