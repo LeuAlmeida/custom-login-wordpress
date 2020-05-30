@@ -51,10 +51,6 @@ body.login {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#372147', endColorstr='#000000', GradientType=1 ) !important;
 }
 
-.login h1 a {
-
-}
-
 .login form {
   background: transparent !important;
   border: 0px !important;
