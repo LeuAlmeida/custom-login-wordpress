@@ -16,7 +16,7 @@
 <img alt="Presentation" src="./doc/screenshot.png" />
 </p>
 
-### :closed_lock_with_key: Getting started
+### 🖌 Getting started
 
 1. Login on your WordPress blog
 2. Go to Appearence -> Editor -> `functions.php`
