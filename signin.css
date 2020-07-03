@@ -103,10 +103,50 @@ form#lostpasswordform p.submit input#wp-submit {
   font-weight: bold !important;
 }
 
-form#lostpasswordform p.submit input#wp-submit {
-}
 
 .login #nav a,
 .login #backtoblog a {
   color: #fff !important;
+}
+
+.login h1.admin-email__heading {
+  color: #f3f5f6 !important;
+}
+
+p.admin-email__details {
+  color: #cecece !important;
+}
+
+.admin-email__details a,
+.admin-email__actions-secondary a {
+  color: #9f67ca !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.login .admin-email__actions .button-primary {
+  background: #5c52ff !important;
+  border: 0px !important;
+  width: 49% !important;
+  margin-top: 10px !important;
+  padding: 5px !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
+div.admin-email__actions a.button.button-large {
+  background: #7d7d7d !important;
+  border: 0px !important;
+  width: 45%;
+  margin-top: 10px !important;
+  padding: 5px !important;
+  border-radius: 10px !important;
+  text-align: center;
+  color: #fff !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
 }
