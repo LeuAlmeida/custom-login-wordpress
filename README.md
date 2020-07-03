@@ -13,14 +13,14 @@
 </p>
 
 <p align="center">
-<img alt="Presentation" src="./doc/screenshot.png" />
+<img alt="Presentation" src=".github/screenshot.png" />
 </p>
 
 ### 🖌 Getting started
 
 1. Login on your WordPress blog
 2. Go to Appearence -> Editor -> `functions.php`
-3. Insert the following lines into the header file:
+3. Insert the following lines into the header file (near to lines 5 - 8):
 
 ```php
 wp_enqueue_style ('login-style', 'https://leunardo.dev/utils/signin.css');
